@@ -14,7 +14,7 @@ public class MDB {
         public MDB() {
            // conexion = new Conexion("com.mysql.jdbc.Driver", "administrador", "jdbc:mysql://localhost/bdcostos", "root");
 	                        //Conexion(String controlador, String contrasena, String URL, String usuario)
-        conexion = new Conexion("com.mysql.jdbc.Driver", "administrador", "jdbc:mysql://127.0.0.1:3306/bddatos", "root");
+        conexion = new Conexion("com.mysql.jdbc.Driver", "1234", "jdbc:mysql://127.0.0.1:3306/bddatos", "root");
 	//public Conexion(String controlador, String contrasena, String URL, String usuario) {
 	
         }
